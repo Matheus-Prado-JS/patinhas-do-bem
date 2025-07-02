@@ -586,19 +586,21 @@ body {
 .card-animal:nth-child(8) { animation-delay: 0.9s; }
 .card-animal:nth-child(9) { animation-delay: 1s; }
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
   .navbar .container {
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
-
-@media .menu {
-    flex-direction: column;
+}
+@media (max-width:600px) {
+  .menu{  
+  flex-direction: column;
     align-items: center;
     gap: 10px;
   }
 }
+
 @media (max-width: 600px) {
   .hero {
     opacity: 1 !important;
