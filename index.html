@@ -172,24 +172,19 @@
       </div>
       <button type="submit" class="botao">Enviar</button>
     </form>
+    <!-- WhatsApp instruções -->
+<div id="form-whatsapp" class="formulario" style="display: none;">
+  <p style="font-size: 1.1rem; text-align: center;">
+    Para entrar em contato pelo WhatsApp, envie uma mensagem para:
+  </p>
+  <p style="font-size: 1.3rem; text-align: center; font-weight: bold; color: #c07007; margin: 15px 0;">
+    (11) 12345-6789
+  </p>
+  <p style="font-size: 1rem; text-align: center;">
+    Estamos disponíveis para tirar dúvidas, receber doações e orientações sobre adoção 💬🐾
+  </p>
+</div>
 
-    <!-- Formulário WhatsApp -->
-    <form id="form-whatsapp" class="formulario" style="display: none;" onsubmit="enviarWhatsApp(); return false;">
-      <div class="campo-form">
-        <label for="nome-whats">Nome</label>
-        <input type="text" id="nome-whats" name="nome" required>
-      </div>
-      <div class="campo-form">
-        <label for="numero">Número de WhatsApp</label>
-        <input type="tel" id="numero" name="numero" required>
-      </div>
-      <div class="campo-form">
-        <label for="mensagem-whats">Mensagem</label>
-        <textarea id="mensagem-whats" name="mensagem" rows="5" required></textarea>
-      </div>
-      <button type="submit" class="botao">Enviar</button>
-    </form>
-  </div>
 </section>
 <script>
   const botoes = document.querySelectorAll('.botao-contato');
